@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^38w@z07l$28q2l^rq)os_@ewp*f%f9ksi^2s=$f+p!@pnr&ab
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kamho531.pythonanywhere.com']
+ALLOWED_HOSTS = ['kamho531.pythonanywhere.com', 'localhost']
 
 
 # Application definition
@@ -135,7 +135,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # default static files settings for PythonAnywhere.
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
-MEDIA_ROOT = '/home/kamho531/portfolio/media'
-MEDIA_URL = '/media/'
-STATIC_ROOT = '/home/kamho531/portfolio/static'
+MEDIA_ROOT = '/home/kamho531/Portfolio/images'
+MEDIA_URL = '/images/'
+STATIC_ROOT = '/home/kamho531/Portfolio/static'
 STATIC_URL = '/static/'
